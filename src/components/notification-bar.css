@@ -1,0 +1,55 @@
+.notification-bar {
+  min-height: 67px;
+  background-color: var(--text-primary);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.notification-text {
+  color: var(--text-secondary) !important;
+  margin-right: 18px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.close-button {
+  display: none;
+  background-color: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .notification-bar {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .notification-text {
+    margin-right: 0;
+    margin-bottom: 10px;
+    font-size: 15px;
+
+  }
+
+  .close-button {
+    display: flex;
+    margin: 10px auto;
+  }
+}
+
+
+
+
+
+
