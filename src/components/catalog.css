@@ -1,0 +1,56 @@
+.catalog {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.page {
+  background: var(--background);
+}
+
+.container {
+  max-width: 1327px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  height: 86px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.page-line {
+  border-radius: 8px;
+  width: 35px;
+  height: 4px;
+  background-image: linear-gradient(to right, #d835c5, #a11cf3);
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.page-subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 38px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-left: 20px;
+  }
+}
