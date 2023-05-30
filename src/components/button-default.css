@@ -1,0 +1,19 @@
+.button-default {
+  border: 2px  rgba(255, 0, 0, 0) !important;
+  text-transform: none !important;
+  background-image: var(--gradient-primary);
+  border-radius: 8px !important;
+  font-size: 16px;
+  height: 43px;
+  width: 235px;
+  font-weight: 550!important;
+}
+
+.button-default:hover {
+  border: 2px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.button-icon {
+  font-weight: bold!important;
+  color: var(--text-secondary);
+}
