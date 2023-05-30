@@ -1,0 +1,30 @@
+.footer {
+  background-color: hsl(0, 0%, 91%);
+  text-align: center;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.link {
+  margin: 0px 20px;
+  text-decoration: none;
+  color: #322e2e;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    height: 160px;
+    display: flex;
+    align-items: flex-start; /* Alterado para alinhar à esquerda */
+    justify-content: center;
+    flex-direction: column;
+  }
+  .link {
+    margin-top: 10px;
+  }
+}
