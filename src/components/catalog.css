@@ -49,6 +49,17 @@
   margin-bottom: 20px;
 }
 
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+.loading-text {
+  margin: 10px;
+  font-size: 14px;
+}
 @media (max-width: 600px) {
   .container {
     padding-left: 20px;

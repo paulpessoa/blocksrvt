@@ -60,4 +60,11 @@
   .card-content {
     height: 137px;
   }
+
+  .card-actions {
+    height: 44px;
+  }
+  .card-text {
+    padding-top: 4px;
+  }
 }
